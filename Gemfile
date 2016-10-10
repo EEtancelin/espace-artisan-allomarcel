@@ -30,6 +30,8 @@ gem 'turbolinks', '~> 5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 ruby '2.3.1'
+gem 'font-awesome-sass', '~> 4.6.2'
+gem 'bootstrap-sass', '~> 3.3.6'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

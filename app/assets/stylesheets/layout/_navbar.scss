@@ -1,0 +1,49 @@
+.navbar{
+  background-color: $LIGHT_GREY;
+  height: 40px;
+  padding: 0px;
+}
+
+.navbar-logo{
+  height : 80%;
+  margin: auto;
+}
+
+.navbar-right{
+  float: right;
+  padding-top: 0px;
+}
+
+.navbar > ul {
+  height: 100%;
+  width: 200px ;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.navbar > ul > li {
+  margin: auto;
+}
+
+.sidebar-wrapper{
+  width: 225px;
+  height: 700px;
+  background-color: $DARK_GREY;
+}
+.sidebar-nav{
+}
+
+.sidebar-nav li {
+  font-size: 20px;
+  color: $FONT_GREY;
+  font-family: $OPEN_SANS;
+  font-weight: bold;
+  text-decoration: none !important;
+  letter-spacing: 2px;
+  line-height: 21px;
+  padding: 10px 5px 10px 10px;
+}
+
+.sidebar-nav li > a:visited {
+  color: $FONT_GREY;
+}
