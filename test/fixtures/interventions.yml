@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nature: MyString
+  montant_devis: 1.5
+  montant_final: 1.5
+  date_demande: 2016-10-11 18:33:43
+
+two:
+  nature: MyString
+  montant_devis: 1.5
+  montant_final: 1.5
+  date_demande: 2016-10-11 18:33:43
